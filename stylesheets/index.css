@@ -57,3 +57,18 @@ fieldset button
     font-size: 50px;
     margin-left: 6px;
 }
+
+@media screen and (max-width: 320px) 
+{
+    .dashboard 
+    {
+        height: 250px;
+        padding: 0;
+    }
+
+    .fa-compact-disc 
+    {
+        margin-bottom: 20px;
+        margin-left: 100px;
+    }
+}
