@@ -1,0 +1,10 @@
+@font-face 
+{
+    font-family: BebasNeue;
+    src: url('../assets/fonts/BebasNeue-Regular.ttf');
+}
+
+body 
+{
+    font-family: BebasNeue;
+}
