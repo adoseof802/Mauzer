@@ -1,10 +1,59 @@
-@font-face 
-{
+@font-face {
     font-family: BebasNeue;
     src: url('../assets/fonts/BebasNeue-Regular.ttf');
 }
 
-body 
-{
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
     font-family: BebasNeue;
+}
+
+.dashboard {
+    background-color: rgb(33, 33, 33);
+    height: 120px;
+    padding: 15px;
+}
+
+.fa-compact-disc {
+    color: #fff;
+    float: left;
+    font-size: 600%;
+    padding: 15px;
+}
+
+fieldset 
+{
+    border: none;
+    padding: 15px;
+}
+
+fieldset legend 
+{
+    color: #fff;
+    font-size: 20px;
+}
+
+fieldset input[type="search"] 
+{
+    padding: 15px;
+    vertical-align: top;
+    width: 243px;
+}
+
+fieldset button 
+{
+    background: transparent;
+    border: none;
+    vertical-align: top;
+}
+
+.fa-file-audio
+{
+    color: rgb(50,100,254);
+    font-size: 50px;
+    margin-left: 6px;
 }
