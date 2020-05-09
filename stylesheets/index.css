@@ -25,50 +25,74 @@ body {
     padding: 15px;
 }
 
-fieldset 
-{
+fieldset {
     border: none;
     padding: 15px;
 }
 
-fieldset legend 
-{
+fieldset legend {
     color: #fff;
     font-size: 20px;
 }
 
-fieldset input[type="search"] 
-{
+fieldset input[type="search"] {
     padding: 15px;
     vertical-align: top;
     width: 243px;
 }
 
-fieldset button 
-{
+fieldset button {
     background: transparent;
     border: none;
     vertical-align: top;
 }
 
-.fa-file-audio
-{
-    color: rgb(50,100,254);
+.fa-file-audio {
+    color: rgb(50, 100, 254);
     font-size: 50px;
     margin-left: 6px;
 }
 
-@media screen and (max-width: 320px) 
-{
-    .dashboard 
-    {
+.visible {
+    visibility: visible;
+}
+
+.invisible {
+    visibility: hidden;
+}
+
+/* For iPhone 5/SE devices. */
+@media only screen and (max-width: 320px) {
+    .dashboard {
         height: 250px;
         padding: 0;
     }
 
-    .fa-compact-disc 
-    {
+    .fa-compact-disc {
         margin-bottom: 20px;
         margin-left: 100px;
+    }
+}
+
+/* For iPhone 6/7/8, Moto G4 and Galaxy S5 devices. */
+@media only screen and (max-width: 375px) {
+    .dashboard {
+        height: 250px;
+    }
+
+    .fa-compact-disc {
+        margin-bottom: 20px;
+        margin-left: 100px;
+    }
+}
+
+/* For PIxel 2, Pixel 2 XL and iPhone 6/7/8 Plus devices. */
+@media only screen and (max-width: 414px) {
+    .dashboard {
+        height: 250px;
+    }
+
+    .fa-compact-disc {
+        margin-bottom: 20px;
     }
 }
